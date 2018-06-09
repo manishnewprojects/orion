@@ -2,15 +2,15 @@
 
 <!-- Basic Page Needs -->
   <meta charset="utf-8">
-  <title> World's first instant guide service </title>
-  <meta name="description" content="Instant guide service">
-  <meta name="author" content="@mv">
+  <title> Orion </title>
+  <meta name="description" content="Instant Guide">
+  <meta name="author" content="@mr_dreamerskies">
 
 <!-- Favicon -->
   <link rel="icon" type="image/ico" href="images/favicon.ico">
 
 <!-- Mobile Specific Metas -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
 
  <!-- Bootstrap core CSS -->
 
@@ -24,9 +24,13 @@
 <!-- Website Fonts & icons -->
    
 <!-- JQuery-->
-    
+<script charset="utf-8" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ 
 <!-- Local JS --> 
+
+<!-- Local JS --> 
+<script charset="utf-8" type="text/javascript" src="js/orion.js"></script>
+   
  
 <!-- Google Maps API    -->
-
-  
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyzNh1jUjz9QJ9VE_GO0DBV8wGM6li_EU&libraries=places"></script>
