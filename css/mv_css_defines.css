@@ -47,3 +47,13 @@
 .pagination {
   margin-bottom: 30px;
 }
+
+
+.spin
+{
+  background: #444; /* outline */
+  > *
+  {
+    background: #EEE; /* hand */
+  }
+}
