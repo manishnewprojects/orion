@@ -1,8 +1,4 @@
-/*!
- * Start Bootstrap - 3 Col Portfolio (https://startbootstrap.com/template-overviews/3-col-portfolio)
- * Copyright 2013-2018 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-3-col-portfolio/blob/master/LICENSE)
- */
+ 
 
 @font-face {
     font-family: "Computer Modern";
@@ -46,14 +42,20 @@
 
 .pagination {
   margin-bottom: 30px;
+} 
+
+#map_canvas {background: transparent url(../images/42.gif) no-repeat center center;}
+
+/* GOOGLE MAPS */
+
+/* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+#map {
+  height: 100%;
 }
-
-
-.spin
-{
-  background: #444; /* outline */
-  > *
-  {
-    background: #EEE; /* hand */
-  }
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }

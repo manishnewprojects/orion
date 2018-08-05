@@ -2,15 +2,16 @@
     
 <header class="masthead mb-auto text-center">
         <div class="inner">
-          
-          <h3 class="masthead-brand text-center bg-light fixed-top">Orion</h3>
+         
 
+
+
+ 		<a href="/?/"><img src="images/lg-logo.png" alt="" class="mv_responsive"></a> 
           <nav class="nav nav-masthead justify-content-center">
 
-            <a class="nav-link active" href="#">About</a>
-            <a class="nav-link" href="#">Sign up as a guide</a>
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link active" href="about.php"><h4>About</h4></a>
+            <a class="nav-link" href="around_the_world.php"><h4>Sign up as a guide</h4></a>
+            <a class="nav-link" href="contact.php"><h4>Contact</h4></a>
           </nav>
-
         </div>
 </header>
