@@ -21,7 +21,7 @@ if (navigator.geolocation) {
     map = new google.maps.Map(document.getElementById('map'), {
     //center: {lat: 37.443033, lng: -122.154619},
     center: {lat: position.coords.latitude, lng: position.coords.longitude},
-    zoom: 18,
+    zoom: 20,
     mapTypeId: 'roadmap',
     mapTypeControlOptions: {style: google.maps.MapTypeControlStyle.DROPDOWN_MENU}
     });
@@ -51,11 +51,9 @@ if (navigator.geolocation) {
   
  function searchLocationsNear(center) {
 
-   radius=20;
+   radius=10;
 
-   var searchUrl = 'php_includes/storelocator.php?lat=' + center.lat() + '&lng=' + center.lng() + '&radius=' + radius;
-
-   //console.log ("search URL", searchUrl);
+   var searchUrl = 'php_includes/showpointsofinterest.php?lat=' + center.lat() + '&lng=' + center.lng() + '&radius=' + radius;
 
    downloadUrl(searchUrl, function(data) {
      var xml = parseXml(data);
