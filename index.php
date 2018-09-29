@@ -6,7 +6,7 @@
  
 <head>
 
-<?php include 'php_includes/header.php'; ?>
+<?php include 'php_includes/header.php'; ?> 
 
 
 </head>
@@ -16,7 +16,7 @@
  
  <body onload="initMap();"  >
 
-<?php include 'php_includes/navbar.php'; ?>
+<?php include 'php_includes/navbar.php'; ?> 
      
 
 <div id="map_canvas" class="container" style="width: 100%; height: 90%">

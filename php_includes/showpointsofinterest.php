@@ -1,5 +1,15 @@
 <?php
-require("phpsqlsearch_dbinfo.php");
+//Config Vars
+include dirname(__FILE__)."/../config.php";
+
+// Database details
+include DIR_BASE."/php_includes/secretInfo.php";
+$db_password = PASSWORD;  //defined in secretInfo.php
+$db_server   = SERVERNAME;
+$db_username = USERNAME;
+$db_name     = DBNAME;
+
+
 // Get parameters from URL
 $center_lat = $_GET["lat"];
 $center_lng = $_GET["lng"];
@@ -17,6 +27,7 @@ $parnode = $dom->appendChild($node);
   if (mysqli_connect_errno()){
     $result  = 'error';
     $message = 'Failed to connect to database: ' . mysqli_connect_error();
+    exit();
    }
 
 
@@ -29,7 +40,7 @@ $query = sprintf("SELECT id, name, address, lat, lng, ( 3959 * acos( cos( radian
   mysqli_real_escape_string($db_connection,$radius));
 
 
- //error_log(print_r($query, TRUE), 3, '/var/tmp/errors.log');
+ //error_log(print_r($query, TRUE), 3, '/Users/newprojects/CodeDirectories/orion/logs/lantern_guides_php_errors.log');
 
 $result = mysqli_query($db_connection,$query);
 $result = mysqli_query($db_connection,$query);

@@ -6,12 +6,12 @@
 
 
 
- 		<a href="/?/"><img src="images/lg-logo.png" alt="" class="mv_responsive"></a> 
+ 		<a href="/"><img src="images/lg-logo.png" alt="" class="mv_responsive"></a> 
           <nav class="nav nav-masthead justify-content-center">
 
-            <a class="nav-link active" href="about.php"><h4>About</h4></a>
-            <a class="nav-link" href="around_the_world.php"><h4>Sign up as a guide</h4></a>
-            <a class="nav-link" href="contact.php"><h4>Contact</h4></a>
+            <a class="nav-link active" href="about.php"><h5>About</h5></a>
+            <a class="nav-link" href="around_the_world.php"><h5>Sign up as a guide</h5></a>
+            <a class="nav-link" href="contact.php"><h5>Contact</h5></a>
           </nav>
         </div>
 </header>
